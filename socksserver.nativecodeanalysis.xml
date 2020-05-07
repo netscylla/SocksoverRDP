@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>WriteChannel</FUNCTION>
+    <DECORATED>?WriteChannel@@YAHPADKPAKKH@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>235</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(4) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>getAddressInfo</FUNCTION>
+    <DECORATED>?getAddressInfo@@YAHPAUsockaddr_in@@PAUsockaddr_in6@@PADH@Z</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>255</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(4) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>getAddressInfo</FUNCTION>
+    <DECORATED>?getAddressInfo@@YAHPAUsockaddr_in@@PAUsockaddr_in6@@PADH@Z</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(5) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>getAddressInfo</FUNCTION>
+    <DECORATED>?getAddressInfo@@YAHPAUsockaddr_in@@PAUsockaddr_in6@@PADH@Z</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>303</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(4) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>getAddressInfo</FUNCTION>
+    <DECORATED>?getAddressInfo@@YAHPAUsockaddr_in@@PAUsockaddr_in6@@PADH@Z</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'domain' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>getAddressInfo</FUNCTION>
+    <DECORATED>?getAddressInfo@@YAHPAUsockaddr_in@@PAUsockaddr_in6@@PADH@Z</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'domain'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'buf[0]==4' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'buf[0]==5')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'buf[3]==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'buf[3]==3')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>261</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'domain' is an Output from 'RtlSecureZeroMemory' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winnt.h:19889)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'domain' is an Input to 'getaddrinfo' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\ws2tcpip.h:121)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'domain' is required to be zero-terminated by a SAL annotation on 'getaddrinfo'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>302</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'s' could be '0':  this does not adhere to the specification for the function 'inet_ntop'. </DESCRIPTION>
+    <FUNCTION>getAddressInfo</FUNCTION>
+    <DECORATED>?getAddressInfo@@YAHPAUsockaddr_in@@PAUsockaddr_in6@@PADH@Z</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>298</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>301</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'s' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>302</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'s' is an In/Out argument to 'inet_ntop' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\ws2tcpip.h:593)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>302</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'s' should not be NULL, because this is not consistent with the SAL annotation on 'inet_ntop'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>455</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>466</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>500</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>506</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>527</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>533</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>543</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>553</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>572</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>588</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>599</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>611</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>611</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(4) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>611</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(5) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>660</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>693</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>693</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(4) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>713</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'hEvents'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>422</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>424</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvents' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>553</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>554</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to exitthread</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>708</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>710</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>711</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>712</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>713</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hEvents' is an Input to 'CloseHandle' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\handleapi.h:38)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>713</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvents' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>713</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'hEvents[BYTE:0]'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>422</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>424</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>553</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>554</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>708</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>710</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>711</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>712</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>713</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvents[BYTE:0]' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>713</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvents[BYTE:0]' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>693</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'dwSentN'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>422</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>424</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'dwSentN' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'buf[0]==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>441</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'buf[1]==4' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>461</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'buf[1]==5')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'dwRet-3!=buf[2]' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>470</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>477</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'iAuthNum==-1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>484</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'iAuthNum&gt;0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>512</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>514</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'dwRet&gt;0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>515</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'buf[0]==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>517</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'dwRet&gt;6')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>519</LINE>
+        <COLUMN>64</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>557</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>558</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>559</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>561</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>563</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>564</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>565</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>15</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'SendOverlapped.hEvent==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>570</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>16</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>576</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>578</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>580</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>17</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'pta-&gt;run')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>582</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>18</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'read')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>584</LINE>
+        <COLUMN>78</COLUMN>
+        <KEYEVENT>
+          <ID>19</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>593</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>596</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>597</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>20</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>603</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>21</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'pta-&gt;run==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>608</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>22</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'dwRet-(((((DWORD)0))+0))' ) resolves to case 0: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>610</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>611</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>23</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'bDebug' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>612</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>613</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>24</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'buf[0]==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>618</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>619</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>25</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'dwSentPointer&lt;dwRecvN' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>655</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>580</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>26</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'pta-&gt;run')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>582</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>27</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'read')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>584</LINE>
+        <COLUMN>78</COLUMN>
+        <KEYEVENT>
+          <ID>28</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>593</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>596</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>597</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>29</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>603</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>30</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'pta-&gt;run==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>608</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>31</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'dwRet-(((((DWORD)0))+0))' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>658</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>659</LINE>
+        <COLUMN>74</COLUMN>
+        <KEYEVENT>
+          <ID>32</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>664</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>33</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'NetworkEvents.lNetworkEvents' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>672</LINE>
+        <COLUMN>97</COLUMN>
+        <KEYEVENT>
+          <ID>34</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>683</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>687</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>688</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>35</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'bClose')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>690</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>36</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'bDebug' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>692</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>37</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>693</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>38</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'dwSentN' is an In/Out argument to 'printf' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h:948)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>693</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>39</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'dwSentN' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+      <FILENAME>socksserver.cpp</FILENAME>
+      <LINE>710</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'sRelayConnection'.</DESCRIPTION>
+    <FUNCTION>HandleClient</FUNCTION>
+    <DECORATED>?HandleClient@@YGKPAX@Z</DECORATED>
+    <FUNCLINE>419</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>422</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>424</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'sRelayConnection' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>553</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>554</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to exitthread</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>708</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>710</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'sRelayConnection' is an Input to 'shutdown' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h:2152)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-server</FILEPATH>
+        <FILENAME>socksserver.cpp</FILENAME>
+        <LINE>710</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'sRelayConnection' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

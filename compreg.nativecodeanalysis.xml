@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+      <FILENAME>atlcomcli.h</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pp'. </DESCRIPTION>
+    <FUNCTION>ATL::AtlComQIPtrAssign2</FUNCTION>
+    <DECORATED>?AtlComQIPtrAssign2@ATL@@YAXPAPAUIUnknown@@PAU2@ABU_GUID@@@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+        <FILENAME>atlcomcli.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pp' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+        <FILENAME>atlcomcli.h</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pp' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+      <FILENAME>atlcomcli.h</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'pp' could be '0':  this does not adhere to the specification for the function 'IUnknown::QueryInterface'. See line 56 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>ATL::AtlComQIPtrAssign2</FUNCTION>
+    <DECORATED>?AtlComQIPtrAssign2@ATL@@YAXPAPAUIUnknown@@PAU2@ABU_GUID@@@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+        <FILENAME>atlcomcli.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pp' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+        <FILENAME>atlcomcli.h</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+        <FILENAME>atlcomcli.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'pp' is an Input to 'IUnknown::QueryInterface' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\unknwnbase.h:113)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+        <FILENAME>atlcomcli.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include</FILEPATH>
+        <FILENAME>atlcomcli.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pp' should not be NULL, because this is not consistent with the SAL annotation on 'IUnknown::QueryInterface'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>274</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserSize': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5620). Note: There are several prototypes for this function. This warning compares the first with instance number 13. </DESCRIPTION>
+    <FUNCTION>BSTR_UserSize</FUNCTION>
+    <DECORATED>BSTR_UserSize@12</DECORATED>
+    <FUNCLINE>274</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>275</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserMarshal': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5621). Note: There are several prototypes for this function. This warning compares the first with instance number 13. </DESCRIPTION>
+    <FUNCTION>BSTR_UserMarshal</FUNCTION>
+    <DECORATED>BSTR_UserMarshal@12</DECORATED>
+    <FUNCLINE>275</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>276</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserUnmarshal': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5622). Note: There are several prototypes for this function. This warning compares the first with instance number 13. </DESCRIPTION>
+    <FUNCTION>BSTR_UserUnmarshal</FUNCTION>
+    <DECORATED>BSTR_UserUnmarshal@12</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserFree': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5623). Note: There are several prototypes for this function. This warning compares the first with instance number 13. </DESCRIPTION>
+    <FUNCTION>BSTR_UserFree</FUNCTION>
+    <DECORATED>BSTR_UserFree@8</DECORATED>
+    <FUNCLINE>277</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>279</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserSize': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1110). Note: There are several prototypes for this function. This warning compares the first with instance number 7. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserSize</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserSize@12</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>280</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserMarshal': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1111). Note: There are several prototypes for this function. This warning compares the first with instance number 7. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserMarshal</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserMarshal@12</DECORATED>
+    <FUNCLINE>280</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>281</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserUnmarshal': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1112). Note: There are several prototypes for this function. This warning compares the first with instance number 7. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserUnmarshal</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserUnmarshal@12</DECORATED>
+    <FUNCLINE>281</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>282</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserFree': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1113). Note: There are several prototypes for this function. This warning compares the first with instance number 7. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserFree</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserFree@8</DECORATED>
+    <FUNCLINE>282</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>284</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserSize64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5635). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserSize64</FUNCTION>
+    <DECORATED>BSTR_UserSize64@12</DECORATED>
+    <FUNCLINE>284</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>285</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserMarshal64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5636). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserMarshal64</FUNCTION>
+    <DECORATED>BSTR_UserMarshal64@12</DECORATED>
+    <FUNCLINE>285</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserUnmarshal64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5637). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserUnmarshal64</FUNCTION>
+    <DECORATED>BSTR_UserUnmarshal64@12</DECORATED>
+    <FUNCLINE>286</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>287</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserFree64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h(5638). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserFree64</FUNCTION>
+    <DECORATED>BSTR_UserFree64@8</DECORATED>
+    <FUNCLINE>287</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>289</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserSize64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1120). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserSize64</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserSize64@12</DECORATED>
+    <FUNCLINE>289</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>290</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserMarshal64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1121). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserMarshal64</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserMarshal64@12</DECORATED>
+    <FUNCLINE>290</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserUnmarshal64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1122). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserUnmarshal64</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserUnmarshal64@12</DECORATED>
+    <FUNCLINE>291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\onedrive - netscylla cyber security ltd\documents\tools\socks4rdp\socksoverrdp-plugin</FILEPATH>
+      <FILENAME>socksoverrdpplugin_i.h</FILENAME>
+      <LINE>292</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'LPSAFEARRAY_UserFree64': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propidlbase.h(1123). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>LPSAFEARRAY_UserFree64</FUNCTION>
+    <DECORATED>LPSAFEARRAY_UserFree64@8</DECORATED>
+    <FUNCLINE>292</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
